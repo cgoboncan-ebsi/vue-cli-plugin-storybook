@@ -37,7 +37,7 @@ module.exports = (api, { pluginOptions = {} }) => {
     server.buildDev({
       packageJson: {
         name: '@storybook/vue',
-        version: '4.0.0-alpha.20',
+        version: '4.0.2',
       },
       wrapInitialConfig: wrapInitialConfig(api, options),
       wrapDefaultConfig,
